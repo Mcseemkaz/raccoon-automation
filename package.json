@@ -1,0 +1,26 @@
+{
+  "name": "raccoon-automation",
+  "version": "0.0.1",
+  "description": "The Automation Tests for Raccon.Recovery",
+  "main": "index.js",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mcseemkaz/raccoon-automation.git"
+  },
+  "keywords": [
+    "automation"
+  ],
+  "author": "Maksim Ovsiuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mcseemkaz/raccoon-automation/issues"
+  },
+  "homepage": "https://github.com/Mcseemkaz/raccoon-automation#readme"
+}
