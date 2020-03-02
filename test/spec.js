@@ -6,7 +6,7 @@ describe('Application launch', function () {
 
   beforeEach(function () {
     this.app = new Application({
-      path: 'C:\\Users\\Mcseem\\AppData\\Local\\Programs\\Raccoon-Test\\RaccoonTest.exe'
+      path: 'C:\\Users\\Professional\\AppData\\Local\\Programs\\Raccoon-Test\\RaccoonTest.exe'
     })
     return this.app.start()
   })

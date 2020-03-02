@@ -1,0 +1,7 @@
+class AdminPage {
+
+let
+
+
+
+}

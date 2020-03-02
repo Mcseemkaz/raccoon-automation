@@ -4,6 +4,7 @@
   "description": "The Automation Tests for Raccon.Recovery",
   "main": "index.js",
   "dependencies": {
+    "@types/node": "^13.7.7",
     "selenium-webdriver": "^4.0.0-alpha.5"
   },
   "devDependencies": {
