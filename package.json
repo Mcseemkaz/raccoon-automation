@@ -1,6 +1,6 @@
 {
   "name": "raccoon-automation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The Automation Tests for Raccon.Recovery",
   "main": "index.js",
   "dependencies": {
@@ -11,6 +11,8 @@
     "@babel/core": "^7.8.7",
     "@babel/node": "^7.8.7",
     "@babel/preset-env": "^7.8.7",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
     "mocha": "^7.1.0",
     "spectron": "^8.0.0"
   },
