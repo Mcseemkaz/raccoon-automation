@@ -1,8 +1,10 @@
-import {adminLoginDev, adminPassDev} from "../resources/credentials"
 
-
-const path = require('../settings.json').path
 const Application = require('spectron').Application
+const path = require('../settings.json').path
+const adminLoginDev = require('../resources/credentials.json').adminLoginDev
+const adminPassDev = require('../resources/credentials.json').adminPassDev
+
+
 const assert = require('assert')
 
 describe('Application launch', function () {
