@@ -1,3 +1,7 @@
+import {adminLoginDev, adminPassDev} from "../resources/credentials"
+
+
+const path = require('../settings.json').path
 const Application = require('spectron').Application
 const assert = require('assert')
 
@@ -6,7 +10,7 @@ describe('Application launch', function () {
 
   beforeEach(function () {
     this.app = new Application({
-      path: 'C:\\Users\\Mcseem\\AppData\\Local\\Programs\\Raccoon-Test\\RaccoonTest.exe'
+      path: path
     })
     return this.app.start()
   })
@@ -26,8 +30,8 @@ describe('Application launch', function () {
 it(' login as admin', function(){
   let login = this.app.client.$('#login');
   let pass = this.app.client.$('#password');
-  login.addValue('admin@gmail.com');
-  pass.addValue('PAROllll12');
+  login.addValue(adminLoginDev);
+  pass.addValue(adminPassDev);
   this.app.client.$('button').click();
     
 })
