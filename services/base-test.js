@@ -11,7 +11,8 @@ global.before(() => {
 module.exports = {
   async startApp() {
     const app = await new Application({
-      path: path
+      path: path,
+      startTimeout: 10000,
     }).start();
     chaiAsPromised.transferPromiseness = app.transferPromiseness;
     return app;
